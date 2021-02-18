@@ -1,0 +1,6 @@
+framework module Pods_Multikeyous_MultikeyousUITests {
+  umbrella header "Pods-Multikeyous-MultikeyousUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
