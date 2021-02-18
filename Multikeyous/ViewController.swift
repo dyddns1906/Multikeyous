@@ -13,6 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         print("브런치 테스트")
+        print("머지 테스트")
     }
 }
 
