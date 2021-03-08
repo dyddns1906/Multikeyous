@@ -3,17 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B8F2DF625F5B55F00383009 /* UIView+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F2DEF25F5B55E00383009 /* UIView+Custom.swift */; };
+		3B8F2DF725F5B55F00383009 /* CommonAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F2DF025F5B55E00383009 /* CommonAlert.swift */; };
+		3B8F2DF825F5B55F00383009 /* Array+rangeCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F2DF125F5B55E00383009 /* Array+rangeCheck.swift */; };
+		3B8F2DF925F5B55F00383009 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F2DF225F5B55E00383009 /* Device.swift */; };
+		3B8F2DFA25F5B55F00383009 /* UIColor+hexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F2DF325F5B55E00383009 /* UIColor+hexColor.swift */; };
+		3B8F2DFB25F5B55F00383009 /* UIView+parentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F2DF425F5B55F00383009 /* UIView+parentViewController.swift */; };
+		3B8F2DFC25F5B55F00383009 /* NSObject+getName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F2DF525F5B55F00383009 /* NSObject+getName.swift */; };
+		3B8F2E0125F5B57F00383009 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F2E0025F5B57F00383009 /* MasterViewController.swift */; };
+		3B8F2E0725F5B69700383009 /* MasterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F2E0625F5B69700383009 /* MasterViewModel.swift */; };
+		3B8F2E1225F5B81A00383009 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F2E1125F5B81A00383009 /* SettingViewController.swift */; };
+		3B8F2E1A25F5B82800383009 /* PresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F2E1925F5B82800383009 /* PresentationViewController.swift */; };
+		3B8F2E1F25F5B83600383009 /* MouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F2E1E25F5B83600383009 /* MouseViewController.swift */; };
 		3B99D96E25DE94A20061B834 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B99D96D25DE94A20061B834 /* AppDelegate.swift */; };
-		3B99D97225DE94A20061B834 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B99D97125DE94A20061B834 /* ViewController.swift */; };
+		3B99D97225DE94A20061B834 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B99D97125DE94A20061B834 /* KeyboardViewController.swift */; };
 		3B99D97525DE94A20061B834 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B99D97325DE94A20061B834 /* Main.storyboard */; };
 		3B99D97725DE94A30061B834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B99D97625DE94A30061B834 /* Assets.xcassets */; };
 		3B99D97A25DE94A30061B834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B99D97825DE94A30061B834 /* LaunchScreen.storyboard */; };
 		3B99D98525DE94A30061B834 /* MultikeyousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B99D98425DE94A30061B834 /* MultikeyousTests.swift */; };
 		3B99D99025DE94A30061B834 /* MultikeyousUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B99D98F25DE94A30061B834 /* MultikeyousUITests.swift */; };
+		3BD92F6225F2111000FA8663 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD92F6125F2111000FA8663 /* AppModel.swift */; };
+		3BD92F6A25F2112100FA8663 /* AppDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD92F6925F2112100FA8663 /* AppDataManager.swift */; };
+		3BD92F7725F212E400FA8663 /* KeyboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD92F7625F212E400FA8663 /* KeyboardModel.swift */; };
+		3BD92F7C25F2131700FA8663 /* KeyboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD92F7B25F2131700FA8663 /* KeyboardViewModel.swift */; };
+		3BD92F8125F2148E00FA8663 /* CommunicationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD92F8025F2148E00FA8663 /* CommunicationModel.swift */; };
 		A10C8F05A39ECA7A33CA81F8 /* Pods_Multikeyous.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E8D305A3C70AFCD5AE293D3 /* Pods_Multikeyous.framework */; };
 		BC659F2DDBFFAF88CA21E573 /* Pods_MultikeyousTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C9E00F194DE33417C79D79 /* Pods_MultikeyousTests.framework */; };
 		E5D83B0C4E8EB2BE44F1EC08 /* Pods_Multikeyous_MultikeyousUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EDACF49A15C6EC5A9AAA89F /* Pods_Multikeyous_MultikeyousUITests.framework */; };
@@ -39,9 +56,21 @@
 /* Begin PBXFileReference section */
 		0EDACF49A15C6EC5A9AAA89F /* Pods_Multikeyous_MultikeyousUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Multikeyous_MultikeyousUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E161CC96C4E9B9980466ADD /* Pods-Multikeyous-MultikeyousUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multikeyous-MultikeyousUITests.debug.xcconfig"; path = "Target Support Files/Pods-Multikeyous-MultikeyousUITests/Pods-Multikeyous-MultikeyousUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B8F2DEF25F5B55E00383009 /* UIView+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Custom.swift"; sourceTree = "<group>"; };
+		3B8F2DF025F5B55E00383009 /* CommonAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonAlert.swift; sourceTree = "<group>"; };
+		3B8F2DF125F5B55E00383009 /* Array+rangeCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+rangeCheck.swift"; sourceTree = "<group>"; };
+		3B8F2DF225F5B55E00383009 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		3B8F2DF325F5B55E00383009 /* UIColor+hexColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+hexColor.swift"; sourceTree = "<group>"; };
+		3B8F2DF425F5B55F00383009 /* UIView+parentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+parentViewController.swift"; sourceTree = "<group>"; };
+		3B8F2DF525F5B55F00383009 /* NSObject+getName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+getName.swift"; sourceTree = "<group>"; };
+		3B8F2E0025F5B57F00383009 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		3B8F2E0625F5B69700383009 /* MasterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewModel.swift; sourceTree = "<group>"; };
+		3B8F2E1125F5B81A00383009 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		3B8F2E1925F5B82800383009 /* PresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewController.swift; sourceTree = "<group>"; };
+		3B8F2E1E25F5B83600383009 /* MouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseViewController.swift; sourceTree = "<group>"; };
 		3B99D96A25DE94A20061B834 /* Multikeyous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multikeyous.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B99D96D25DE94A20061B834 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B99D97125DE94A20061B834 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B99D97125DE94A20061B834 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		3B99D97425DE94A20061B834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B99D97625DE94A30061B834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B99D97925DE94A30061B834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +81,11 @@
 		3B99D98B25DE94A30061B834 /* MultikeyousUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultikeyousUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B99D98F25DE94A30061B834 /* MultikeyousUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultikeyousUITests.swift; sourceTree = "<group>"; };
 		3B99D99125DE94A30061B834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BD92F6125F2111000FA8663 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		3BD92F6925F2112100FA8663 /* AppDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDataManager.swift; sourceTree = "<group>"; };
+		3BD92F7625F212E400FA8663 /* KeyboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardModel.swift; sourceTree = "<group>"; };
+		3BD92F7B25F2131700FA8663 /* KeyboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewModel.swift; sourceTree = "<group>"; };
+		3BD92F8025F2148E00FA8663 /* CommunicationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationModel.swift; sourceTree = "<group>"; };
 		41842BBA385BC840924E7DF2 /* Pods-MultikeyousTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultikeyousTests.release.xcconfig"; path = "Target Support Files/Pods-MultikeyousTests/Pods-MultikeyousTests.release.xcconfig"; sourceTree = "<group>"; };
 		4C3505866C6264439EEEC9EC /* Pods-MultikeyousTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultikeyousTests.debug.xcconfig"; path = "Target Support Files/Pods-MultikeyousTests/Pods-MultikeyousTests.debug.xcconfig"; sourceTree = "<group>"; };
 		500CFFC034362F9364C3A663 /* Pods-Multikeyous.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multikeyous.release.xcconfig"; path = "Target Support Files/Pods-Multikeyous/Pods-Multikeyous.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,8 +133,45 @@
 				4C3505866C6264439EEEC9EC /* Pods-MultikeyousTests.debug.xcconfig */,
 				41842BBA385BC840924E7DF2 /* Pods-MultikeyousTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		3B8F2DEB25F5B50A00383009 /* extenstion */ = {
+			isa = PBXGroup;
+			children = (
+				3B8F2DF125F5B55E00383009 /* Array+rangeCheck.swift */,
+				3B8F2DF025F5B55E00383009 /* CommonAlert.swift */,
+				3B8F2DF225F5B55E00383009 /* Device.swift */,
+				3B8F2DF525F5B55F00383009 /* NSObject+getName.swift */,
+				3B8F2DF325F5B55E00383009 /* UIColor+hexColor.swift */,
+				3B8F2DEF25F5B55E00383009 /* UIView+Custom.swift */,
+				3B8F2DF425F5B55F00383009 /* UIView+parentViewController.swift */,
+			);
+			path = extenstion;
+			sourceTree = "<group>";
+		};
+		3B8F2E0E25F5B7DB00383009 /* ModeForMouse */ = {
+			isa = PBXGroup;
+			children = (
+				3B8F2E1E25F5B83600383009 /* MouseViewController.swift */,
+			);
+			path = ModeForMouse;
+			sourceTree = "<group>";
+		};
+		3B8F2E0F25F5B7EE00383009 /* ModeForPresent */ = {
+			isa = PBXGroup;
+			children = (
+				3B8F2E1925F5B82800383009 /* PresentationViewController.swift */,
+			);
+			path = ModeForPresent;
+			sourceTree = "<group>";
+		};
+		3B8F2E1025F5B7FC00383009 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				3B8F2E1125F5B81A00383009 /* SettingViewController.swift */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 		3B99D96125DE94A20061B834 = {
@@ -128,12 +199,14 @@
 		3B99D96C25DE94A20061B834 /* Multikeyous */ = {
 			isa = PBXGroup;
 			children = (
-				3B99D96D25DE94A20061B834 /* AppDelegate.swift */,
-				3B99D97125DE94A20061B834 /* ViewController.swift */,
-				3B99D97325DE94A20061B834 /* Main.storyboard */,
-				3B99D97625DE94A30061B834 /* Assets.xcassets */,
-				3B99D97825DE94A30061B834 /* LaunchScreen.storyboard */,
 				3B99D97B25DE94A30061B834 /* Info.plist */,
+				3B99D96D25DE94A20061B834 /* AppDelegate.swift */,
+				3B99D97625DE94A30061B834 /* Assets.xcassets */,
+				3B8F2DEB25F5B50A00383009 /* extenstion */,
+				3BD92F6E25F2125E00FA8663 /* HeaderTabbar */,
+				3B99D97825DE94A30061B834 /* LaunchScreen.storyboard */,
+				3B99D97325DE94A20061B834 /* Main.storyboard */,
+				3BD92F6025F210F100FA8663 /* Manager */,
 			);
 			path = Multikeyous;
 			sourceTree = "<group>";
@@ -154,6 +227,39 @@
 				3B99D99125DE94A30061B834 /* Info.plist */,
 			);
 			path = MultikeyousUITests;
+			sourceTree = "<group>";
+		};
+		3BD92F6025F210F100FA8663 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				3BD92F6125F2111000FA8663 /* AppModel.swift */,
+				3BD92F6925F2112100FA8663 /* AppDataManager.swift */,
+				3BD92F8025F2148E00FA8663 /* CommunicationModel.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		3BD92F6E25F2125E00FA8663 /* HeaderTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				3B8F2E0025F5B57F00383009 /* MasterViewController.swift */,
+				3B8F2E0625F5B69700383009 /* MasterViewModel.swift */,
+				3BD92F6F25F2128200FA8663 /* ModeForKeyboard */,
+				3B8F2E0E25F5B7DB00383009 /* ModeForMouse */,
+				3B8F2E0F25F5B7EE00383009 /* ModeForPresent */,
+				3B8F2E1025F5B7FC00383009 /* Setting */,
+			);
+			path = HeaderTabbar;
+			sourceTree = "<group>";
+		};
+		3BD92F6F25F2128200FA8663 /* ModeForKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3B99D97125DE94A20061B834 /* KeyboardViewController.swift */,
+				3BD92F7625F212E400FA8663 /* KeyboardModel.swift */,
+				3BD92F7B25F2131700FA8663 /* KeyboardViewModel.swift */,
+			);
+			path = ModeForKeyboard;
 			sourceTree = "<group>";
 		};
 		A48613FF1420D955708381C7 /* Frameworks */ = {
@@ -177,6 +283,7 @@
 				3B99D96625DE94A20061B834 /* Sources */,
 				3B99D96725DE94A20061B834 /* Frameworks */,
 				3B99D96825DE94A20061B834 /* Resources */,
+				899297173177252DE545D825 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -214,6 +321,7 @@
 				3B99D98725DE94A30061B834 /* Sources */,
 				3B99D98825DE94A30061B834 /* Frameworks */,
 				3B99D98925DE94A30061B834 /* Resources */,
+				1023E1A464B53942716F60E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -317,6 +425,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		1023E1A464B53942716F60E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Multikeyous-MultikeyousUITests/Pods-Multikeyous-MultikeyousUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Multikeyous-MultikeyousUITests/Pods-Multikeyous-MultikeyousUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Multikeyous-MultikeyousUITests/Pods-Multikeyous-MultikeyousUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		899297173177252DE545D825 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Multikeyous/Pods-Multikeyous-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Multikeyous/Pods-Multikeyous-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Multikeyous/Pods-Multikeyous-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		DEAC114115EE906D8B4DF5F5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -368,8 +510,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B99D97225DE94A20061B834 /* ViewController.swift in Sources */,
+				3B8F2DF925F5B55F00383009 /* Device.swift in Sources */,
+				3BD92F7725F212E400FA8663 /* KeyboardModel.swift in Sources */,
+				3B8F2DF725F5B55F00383009 /* CommonAlert.swift in Sources */,
+				3B99D97225DE94A20061B834 /* KeyboardViewController.swift in Sources */,
+				3B8F2E1F25F5B83600383009 /* MouseViewController.swift in Sources */,
+				3B8F2E1A25F5B82800383009 /* PresentationViewController.swift in Sources */,
+				3BD92F6A25F2112100FA8663 /* AppDataManager.swift in Sources */,
+				3B8F2E1225F5B81A00383009 /* SettingViewController.swift in Sources */,
+				3B8F2E0125F5B57F00383009 /* MasterViewController.swift in Sources */,
+				3B8F2DF825F5B55F00383009 /* Array+rangeCheck.swift in Sources */,
+				3BD92F6225F2111000FA8663 /* AppModel.swift in Sources */,
+				3B8F2E0725F5B69700383009 /* MasterViewModel.swift in Sources */,
+				3BD92F8125F2148E00FA8663 /* CommunicationModel.swift in Sources */,
+				3B8F2DF625F5B55F00383009 /* UIView+Custom.swift in Sources */,
+				3B8F2DFB25F5B55F00383009 /* UIView+parentViewController.swift in Sources */,
+				3B8F2DFA25F5B55F00383009 /* UIColor+hexColor.swift in Sources */,
 				3B99D96E25DE94A20061B834 /* AppDelegate.swift in Sources */,
+				3BD92F7C25F2131700FA8663 /* KeyboardViewModel.swift in Sources */,
+				3B8F2DFC25F5B55F00383009 /* NSObject+getName.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,7 +634,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -530,7 +689,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -549,11 +708,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FCJEH875NK;
 				INFOPLIST_FILE = Multikeyous/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dyddns.playd.Multikeyous;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyddns.utiles.Multikeyous;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -569,11 +729,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FCJEH875NK;
 				INFOPLIST_FILE = Multikeyous/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.dyddns.playd.Multikeyous;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyddns.utiles.Multikeyous;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -584,7 +745,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4C3505866C6264439EEEC9EC /* Pods-MultikeyousTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FCJEH875NK;
@@ -607,7 +768,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 41842BBA385BC840924E7DF2 /* Pods-MultikeyousTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FCJEH875NK;
@@ -630,7 +791,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1E161CC96C4E9B9980466ADD /* Pods-Multikeyous-MultikeyousUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FCJEH875NK;
 				INFOPLIST_FILE = MultikeyousUITests/Info.plist;
@@ -651,7 +812,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DA587ADE572FB928319582BA /* Pods-Multikeyous-MultikeyousUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FCJEH875NK;
 				INFOPLIST_FILE = MultikeyousUITests/Info.plist;
